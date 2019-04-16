@@ -2,6 +2,13 @@ body {
     margin: 60px auto;
     width: 70%;
 }
+background {
+  background-image: url(/images/background.jpeg);
+  height: 100%; 
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
 nav ul, footer ul {
     font-family:'Helvetica', 'Arial', 'Sans-Serif';
     padding: 0px;
@@ -40,11 +47,4 @@ ul.posts {
 
 ul.posts li {
     list-style: none;
-}
-
-.background {
-  height: 100%; 
-  background-position: center;
-  background-repeat: no-repeat;
-  background-size: cover;
 }
